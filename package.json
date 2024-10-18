@@ -1,0 +1,16 @@
+{
+  "name": "todo_with_express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx --watch src/server.ts",
+    "demo:build": "npx tsc _demo/typescript.ts",
+    "app:build": "npx tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
